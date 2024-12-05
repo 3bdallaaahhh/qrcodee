@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Social Links</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        img {
+            width: 120px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .social-links {
+            display: flex;
+            flex-direction: column; /* Stack links vertically */
+            align-items: center;
+            gap: 10px; /* Space between links */
+        }
+        .social-links a {
+            display: flex;
+            align-items: center;
+            padding: 10px 15px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+            font-size: 1em;
+            width: 200px; /* Set a fixed width */
+            justify-content: center;
+        }
+        .social-links a i {
+            margin-right: 10px; /* Space between icon and text */
+            font-size: 1.2em; /* Adjust icon size */
+        }
+        .social-links a:hover {
+            transform: translateY(-3px);
+        }
+        .facebook { background-color: #3b5998; }
+        .twitter { background-color: #1DA1F2; }
+        .instagram { background-color: #E1306C; }
+        .linkedin { background-color: #0077B5; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA..." alt="Logo">
+        <h1>My Company</h1>
+        <p>Your slogan goes here</p>
+        <div class="social-links">
+            <a href="https://facebook.com/yourprofile" target="_blank" class="facebook">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <a href="https://twitter.com/yourprofile" target="_blank" class="twitter">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+            <a href="https://instagram.com/yourprofile" target="_blank" class="instagram">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="linkedin">
+                <i class="fab fa-linkedin-in"></i> LinkedIn
+            </a>
+        </div>
+    </div>
+</body>
+</html>
